@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import Newone from "@repo/ui/newone";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
         <Button appName="docs" className={styles.secondary}>
           Open alert
         </Button>
+        <Newone/>
       </main>
       <footer className={styles.footer}>
         <a
