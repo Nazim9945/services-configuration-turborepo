@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
 import Newone from "@repo/ui/newone";
+import { Inputbox } from "@repo/ui/inputbox";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <Inputbox/>
         <Button appName="web" className={styles.secondary}>
           Open alert
         </Button>

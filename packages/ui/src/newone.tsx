@@ -6,7 +6,7 @@ const Newone = () => {
     const[count,setCount]=useState(0);
   return (
     <>
-      <div>click on button</div>
+      <div className="bg-blue-300 p-2 text-3xl">click on button</div>
       <button
         onClick={() => {
           setCount(count + 1);
